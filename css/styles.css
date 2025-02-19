@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-@font-face {
-    font-family: 'Honduro';
-    src: url('/assets/fonts/Honduro.woff2') format('woff2'),
-         url('/assets/fonts/Honduro.woff') format('woff'),
-         url('/assets/fonts/Honduro.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('/Hln-Design/css/Honduro.css');
 
 /* Variables básicas */
 :root {
@@ -48,7 +41,7 @@ body {
 /* Hero */
 .hero-bg {
     position: relative;
-    background-image: url('assets/img/hln-bg-large.webp');
+    background-image: url('/assets/img/hln-bg-large.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
