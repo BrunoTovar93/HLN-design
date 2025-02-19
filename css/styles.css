@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: 'Honduro';
-    src: url('/assets/fonts/honduro.woff2') format('woff2'),
-         url('/assets/fonts/honduro.woff') format('woff'),
-         url('/assets/fonts/honduro.otf') format('opentype');
+    src: url('/assets/fonts/Honduro.woff2') format('woff2'),
+         url('/assets/fonts/Honduro.woff') format('woff'),
+         url('/assets/fonts/Honduro.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
