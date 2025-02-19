@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Honduro';
-    src: url('/assets/fonts/honduro.woff2') format('woff2'),
-         url('/assets/fonts/honduro.woff') format('woff');
+    src: url('/assets/fonts/Honduro.woff2') format('woff2'),
+         url('/assets/fonts/Honduro.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,8 +37,7 @@
     --white: #fff;
     --black: #000;
     --font-sans: 'Poppins', sans-serif;
-    --font-title: 'Honduro', sans-serif;
-}
+    --font-title: 'Honduro', Arial, sans-serif;}
 
 /* Reset y estilos globales */
 *, *::before, *::after {
@@ -144,7 +143,7 @@ h2 {
     width: 250px;
     height: 100%;
     background: var(--dark);
-    padding-top: 2rem; /* Espacio extra encima */
+    padding-top: 2rem;
     transform: translateX(250px);
     transition: transform 0.3s ease;
     z-index: 999;
@@ -289,14 +288,14 @@ h2 {
     position: relative;
     display: block;
     overflow: hidden;
-    width: 100%; /* Las imágenes ocuparán todo el ancho disponible */
-    margin-bottom: 1rem; /* Separación entre los items */
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 .portfolio-item .img-fluid {
     width: 100%;
-    height: 100%; /* Hacemos que las imágenes ocupen todo el contenedor */
-    object-fit: cover; /* Hace que la imagen cubra el área del contenedor sin distorsionarse */
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Efecto overlay en portfolio */
@@ -306,7 +305,7 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(158, 159, 162, 0.8); /* Un poco más de transparencia */
+    background: rgba(158, 159, 162, 0.8);
     opacity: 0;
     transition: opacity 0.3s ease;
     display: flex;
